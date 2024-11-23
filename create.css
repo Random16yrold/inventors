@@ -1,0 +1,390 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 380px;
+    width: 5px;  
+    overflow-x: hidden; 
+}
+
+.intro {
+    position: relative;
+    background: #0066FF;
+    color: white;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 670px;
+    height: 976px;
+}
+
+.intro-text1 {
+    padding-left: 50px;
+}
+
+.intro-text2 {
+    padding-left: 50px;
+    gap: 50px;
+}
+
+/* Heart Section*/
+.hearts {
+    position: relative;
+    width: 330.19px;
+    height: 450px;
+    top: -1.22px;
+    left: 10px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
+/* Doctors Section */
+.doctors {
+    position: absolute;
+    width: 326.21px;
+    height: 500px;
+    top: 12px;
+    left: 430px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
+/* Bulb Section */
+.Light-Bulb {
+    position: relative;
+    width: 410.02px;
+    height: 432px;
+    top: 4px;
+    left: 1.01px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
+/*chatbox section*/
+.chat-box {
+    position: relative;
+    top: -500.37px;
+    left: 520px;
+    transform: rotatex(1.3deg); 
+}
+
+.chat1 {
+    position: absolute;
+    top: 134.2px;
+    left: 36px;
+    height: 90px;
+}
+
+.chat2 {
+    position: absolute;
+    top: 183px;
+    left: 12px;
+    height: 110px;
+}
+
+.chat3 {
+    position: absolute;
+    top: 237px;
+    left: -30px;
+    height: 150px;
+}
+
+/*Logo*/
+.logo{
+    position: relative;
+    top: -536px;
+    left: 620px;
+}
+
+.back {
+    position: absolute;
+    height: 98px;
+    width: 100px;
+}
+
+.sheild {
+    position: absolute;
+    left: 32px;
+    top: 27px;
+    height: 47px;
+}
+
+/*Sign In*/
+.Sign-In {
+    position: relative;
+    margin-top: -680px;
+    margin-left: 1020px;
+    color: black;
+    gap: 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    position: absolute;
+    margin-top: -28px;
+    color: #0066FF;
+}
+
+input {
+    display: flex;
+    height: 40px;
+    width: 350px;
+    border: 2px solid #0066FF;
+    border-radius: 10px;
+    outline: none;
+}
+
+input#email {
+    padding-left: 20px;
+}
+
+input#user {
+    padding-left: 20px;
+}
+
+input#password {
+    padding-left: 20px;
+}
+
+::placeholder {
+    color: rgb(172, 172, 172);
+    font-size: 14px;
+}
+
+.form-header {
+    position: relative;
+    top: -30px;
+    left: 10px;
+    width: 400px;
+}
+
+.form-header>h1 {
+    position: absolute;
+    top: -60px;
+}
+
+.form-header>p {
+    position: absolute;
+    top: -5px;
+    width: 300px;
+}
+
+.do a {
+    position: relative;
+    top: -1.4px;
+    color: white;
+    text-decoration: none;
+}
+
+.do p {
+    position: relative;
+    top: -14px;
+}
+
+button {
+    height: 50px;
+    width: 374px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0066FF;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #277dff;
+}
+
+button:active {
+    background-color: #0e5bce;
+}
+
+
+@media (width<490px) {
+    body {
+        width: 5px;
+        height: 13px;
+        overflow-x: hidden;
+    }
+
+    .intro {
+        position: relative;
+        background: #0066FF;
+        color: white;
+        font-size: 17px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 500px;
+        height: 449px;
+    }
+    
+    .intro-text1 {
+        padding-left: 24px;
+        padding-top: -186px;
+        font-size: 29px;
+    }
+    
+    .intro-text2 {
+        padding-left: 24px;
+        padding-top: 20px;
+        gap: 50px;
+        font-size: 12px;
+    }
+
+    .intro-text2>p {
+        padding-top: 10px;
+        width: 160px;
+        font-size: 12.5px;
+    }
+    
+    /* Heart Section*/
+    .hearts {
+        position: relative;
+        width: 150.19px;
+        height: 155px;
+        top: 0.02px;
+        left: 40px;
+        gap: 0px;
+        opacity: 0px;    
+    }
+    
+    /* Doctors Section */
+    .doctors {
+        position: absolute;
+        width: 206.21px;
+        height: 280px;
+        top: 12px;
+        left: 278px;
+        gap: 0px;
+        opacity: 0px;    
+    }
+    
+    /* Bulb Section */
+    .Light-Bulb {
+        position: relative;
+        width: 200.02px;
+        height: 220px;
+        top: 28.7px;
+        left: -0.18px;
+        gap: 0px;
+        opacity: 0px;    
+    }
+    
+    /*chatbox section*/
+    .chat-box {
+        position: relative;
+        top: -321.37px;
+        left: 319px;
+        transform: rotatex(-2.1deg); 
+    }
+    
+    .chat1 {
+        position: absolute;
+        top: 142.2px;
+        left: 36px;
+        height: 70px;
+    }
+    
+    .chat2 {
+        position: absolute;
+        top: 183px;
+        left: 12px;
+        height: 95px;
+    }
+    
+    .chat3 {
+        position: absolute;
+        top: 228px;
+        left: -10px;
+        height: 120px;
+    }
+    
+    /*Logo*/
+    .logo{
+        position: relative;
+        top: -94px;
+        left: 196px;
+    }
+    
+    .back {
+        position: absolute;
+        height: 88px;
+        width: 86px;
+    }
+    
+    .sheild {
+        position: absolute;
+        left: 25px;
+        top: 24.4px;
+        height: 42px;
+    }
+    
+    /*Sign In*/
+    .Sign-In {
+        position: relative;
+        top: 830px;
+        left: -810px;
+        color: black;
+        gap: 43px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    label {
+        position: absolute;
+        margin-top: -25px;
+        color: #0066FF;
+    }
+    
+    input {
+        display: flex;
+        height: 40px;
+        width: 350px;
+        border: 2px solid #0066FF;
+        border-radius: 10px;
+        outline: none;
+    }
+
+    input#email {
+        padding-left: 20px;
+    }
+
+    input#password {
+        padding-left: 20px;
+    }
+    
+    .form-header {
+        position: relative;
+        top: -30px;
+        left: 12px;
+        width: 400px;
+    }
+    
+    .form-header>h1 {
+        position: absolute;
+        top: -60px;
+    }
+    
+    .form-header>p {
+        position: absolute;
+        top: -5px;
+        width: 300px;
+    }   
+
+    .do a {
+        position: relative;
+        top: -1.4px;
+    }
+
+    .do p {
+        position: relative;
+        top: -10px;
+    }
+}
